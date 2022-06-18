@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nice_black"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnDank"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:background="@drawable/button_corners"
+        android:text="Dank"
+        android:textColor="@color/booba"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toTopOf="@+id/btnWholesome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnProgrammer" />
+
+    <Button
+        android:id="@+id/btnProgrammer"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:background="@drawable/button_corners"
+        android:text="Programmer"
+        android:textColor="@color/teal_200"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toTopOf="@+id/btnDank"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAllMemes" />
+
+    <Button
+        android:id="@+id/btnWholesome"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:background="@drawable/button_corners"
+        android:text="Wholesome"
+        android:textColor="@color/booba"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toTopOf="@+id/btnDoge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDank" />
+
+    <Button
+        android:id="@+id/btnDoge"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:background="@drawable/button_corners"
+        android:text="Doge"
+        android:textColor="@color/teal_200"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnWholesome" />
+
+    <Button
+        android:id="@+id/btnAllMemes"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:background="@drawable/button_corners"
+        android:text="All Memes"
+        android:textColor="@color/nice_blue"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toTopOf="@+id/btnProgrammer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMe_irl" />
+
+    <Button
+        android:id="@+id/btnMe_irl"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:background="@drawable/button_corners"
+        android:text="Me_irl"
+        android:textColor="@color/nice_red"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toTopOf="@+id/btnAllMemes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
